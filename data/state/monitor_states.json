@@ -3,13 +3,13 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:32:33.098541876Z"
+    "last_run": "2026-11-23T19:06:55.670883118Z"
   },
   "cloudflare-http": {
-    "state": "unknown",
-    "failure_count": 2,
+    "state": "outage",
+    "failure_count": 3,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:51.299153143Z"
+    "last_run": "2026-11-23T19:06:55.307244442Z"
   },
   "example-dns": {
     "state": "operational",
@@ -27,54 +27,54 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:32:33.086679056Z"
+    "last_run": "2026-11-23T19:06:55.633009116Z"
   },
   "github-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:50.955958109Z"
+    "last_run": "2026-11-23T19:06:54.8805106Z"
   },
   "google-dns": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:32:33.068670785Z"
+    "last_run": "2026-11-23T19:06:55.609411045Z"
   },
   "google-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:50.912479806Z"
+    "last_run": "2026-11-23T19:06:54.577478803Z"
   },
   "mozilla-dns": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:32:33.159301597Z"
+    "last_run": "2026-11-23T19:06:55.781412667Z"
   },
   "mozilla-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:51.526862556Z"
+    "last_run": "2026-11-23T19:06:55.449648319Z"
   },
   "openai-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:51.616892971Z"
+    "last_run": "2026-11-23T19:06:55.567350558Z"
   },
   "wikipedia-dns": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:32:33.144398576Z"
+    "last_run": "2026-11-23T19:06:55.725479351Z"
   },
   "wikipedia-http": {
-    "state": "unknown",
-    "failure_count": 2,
+    "state": "outage",
+    "failure_count": 3,
     "recovery_count": 0,
-    "last_run": "2026-11-23T13:40:51.471672701Z"
+    "last_run": "2026-11-23T19:06:55.382632261Z"
   }
 }
