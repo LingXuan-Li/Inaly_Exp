@@ -3,9 +3,9 @@
     "monitor_id": "example-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-23T07:52:51.003142131Z",
-    "finished_at": "2026-11-23T07:52:51.056148644Z",
-    "duration": 53006513,
+    "started_at": "2026-11-23T08:52:23.573879172Z",
+    "finished_at": "2026-11-23T08:52:23.615438896Z",
+    "duration": 41559724,
     "details": {
       "response_bytes": 577,
       "status_code": 200
@@ -15,9 +15,9 @@
     "monitor_id": "example-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-23T07:52:51.056154653Z",
-    "finished_at": "2026-11-23T07:52:51.081147026Z",
-    "duration": 24992373,
+    "started_at": "2026-11-23T08:52:23.615445699Z",
+    "finished_at": "2026-11-23T08:52:23.647155391Z",
+    "duration": 31709692,
     "details": {
       "query": "example.com",
       "record_type": "A",
@@ -30,17 +30,17 @@
             "2606:4700:10::6814:179a",
             "2606:4700:10::ac42:93f3"
           ],
-          "duration": 541409
+          "duration": 624896
         },
         {
           "resolver": "google",
           "response": [
-            "104.20.23.154",
             "172.66.147.243",
-            "2606:4700:10::6814:179a",
-            "2606:4700:10::ac42:93f3"
+            "104.20.23.154",
+            "2606:4700:10::ac42:93f3",
+            "2606:4700:10::6814:179a"
           ],
-          "duration": 14242456
+          "duration": 27113352
         },
         {
           "resolver": "cloudflare",
@@ -50,7 +50,7 @@
             "2606:4700:10::ac42:93f3",
             "2606:4700:10::6814:179a"
           ],
-          "duration": 10205013
+          "duration": 3966805
         }
       ],
       "warning": false
