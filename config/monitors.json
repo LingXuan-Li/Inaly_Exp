@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "monitors": [
+    {
+      "id": "example-http",
+      "name": "Example Website",
+      "type": "http",
+      "enabled": true,
+      "target": "https://example.com",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "example-dns",
+      "name": "Example DNS",
+      "type": "dns",
+      "enabled": true,
+      "target": "example.com",
+      "interval": "30m",
+      "timeout": "10s",
+      "dns": {
+        "record_type": "A",
+        "resolvers": ["system", "google", "cloudflare"]
+      }
+    }
+  ],
+  "settings": {
+    "tolerance": "2m",
+    "failure_threshold": 3,
+    "recovery_threshold": 2,
+    "notifications": {
+      "discord": {
+        "enabled": true,
+        "notify_on": {
+          "incident_created": true,
+          "incident_updated": true,
+          "incident_resolved": true,
+          "maintenance": false
+        }
+      }
+    }
+  }
+}
