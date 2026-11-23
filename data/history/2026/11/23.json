@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T08:52:23.573454928Z",
+  "generated_at": "2026-11-23T13:16:35.971228847Z",
   "checks": [
     {
       "monitor_id": "example-http",
@@ -83,14 +83,71 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 624896,
             "resolver": "system",
             "response": [
               "172.66.147.243",
               "104.20.23.154",
               "2606:4700:10::6814:179a",
               "2606:4700:10::ac42:93f3"
+            ]
+          },
+          {
+            "duration": 27113352,
+            "resolver": "google",
+            "response": [
+              "172.66.147.243",
+              "104.20.23.154",
+              "2606:4700:10::ac42:93f3",
+              "2606:4700:10::6814:179a"
+            ]
+          },
+          {
+            "duration": 3966805,
+            "resolver": "cloudflare",
+            "response": [
+              "172.66.147.243",
+              "104.20.23.154",
+              "2606:4700:10::ac42:93f3",
+              "2606:4700:10::6814:179a"
+            ]
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "example-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-23T13:16:35.971599796Z",
+      "finished_at": "2026-11-23T13:16:36.02577905Z",
+      "duration": 54179254,
+      "details": {
+        "response_bytes": 577,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "example-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-23T13:16:36.025788268Z",
+      "finished_at": "2026-11-23T13:16:36.052205237Z",
+      "duration": 26416969,
+      "details": {
+        "query": "example.com",
+        "record_type": "A",
+        "resolver_results": [
+          {
+            "resolver": "system",
+            "response": [
+              "104.20.23.154",
+              "172.66.147.243",
+              "2606:4700:10::ac42:93f3",
+              "2606:4700:10::6814:179a"
             ],
-            "duration": 624896
+            "duration": 660129
           },
           {
             "resolver": "google",
@@ -100,17 +157,17 @@
               "2606:4700:10::ac42:93f3",
               "2606:4700:10::6814:179a"
             ],
-            "duration": 27113352
+            "duration": 15477608
           },
           {
             "resolver": "cloudflare",
             "response": [
               "172.66.147.243",
               "104.20.23.154",
-              "2606:4700:10::ac42:93f3",
-              "2606:4700:10::6814:179a"
+              "2606:4700:10::6814:179a",
+              "2606:4700:10::ac42:93f3"
             ],
-            "duration": 3966805
+            "duration": 10274074
           }
         ],
         "warning": false
