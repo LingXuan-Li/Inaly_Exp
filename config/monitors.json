@@ -1,12 +1,13 @@
+
 {
   "schema_version": 1,
   "monitors": [
     {
-      "id": "example-http",
-      "name": "Example Website",
+      "id": "google-http",
+      "name": "Google",
       "type": "http",
       "enabled": true,
-      "target": "https://example.com",
+      "target": "https://www.google.com/",
       "interval": "10m",
       "timeout": "10s",
       "http": {
@@ -15,33 +16,154 @@
       }
     },
     {
-      "id": "example-dns",
-      "name": "Example DNS",
+      "id": "github-http",
+      "name": "GitHub",
+      "type": "http",
+      "enabled": true,
+      "target": "https://github.com/",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "cloudflare-http",
+      "name": "Cloudflare",
+      "type": "http",
+      "enabled": true,
+      "target": "https://www.cloudflare.com/",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "wikipedia-http",
+      "name": "Wikipedia",
+      "type": "http",
+      "enabled": true,
+      "target": "https://www.wikipedia.org/",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "mozilla-http",
+      "name": "Mozilla",
+      "type": "http",
+      "enabled": true,
+      "target": "https://www.mozilla.org/",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "openai-http",
+      "name": "OpenAI",
+      "type": "http",
+      "enabled": true,
+      "target": "https://openai.com/",
+      "interval": "10m",
+      "timeout": "10s",
+      "http": {
+        "method": "GET",
+        "expected_status": [200]
+      }
+    },
+    {
+      "id": "google-dns",
+      "name": "Google DNS",
       "type": "dns",
       "enabled": true,
-      "target": "example.com",
+      "target": "google.com",
       "interval": "30m",
-      "timeout": "10s",
       "dns": {
         "record_type": "A",
-        "resolvers": ["system", "google", "cloudflare"]
+        "resolvers": [
+          "system",
+          "google",
+          "cloudflare"
+        ]
+      }
+    },
+    {
+      "id": "github-dns",
+      "name": "GitHub DNS",
+      "type": "dns",
+      "enabled": true,
+      "target": "github.com",
+      "interval": "30m",
+      "dns": {
+        "record_type": "A",
+        "resolvers": [
+          "system",
+          "google",
+          "cloudflare"
+        ]
+      }
+    },
+    {
+      "id": "cloudflare-dns",
+      "name": "Cloudflare DNS",
+      "type": "dns",
+      "enabled": true,
+      "target": "cloudflare.com",
+      "interval": "30m",
+      "dns": {
+        "record_type": "A",
+        "resolvers": [
+          "system",
+          "google",
+          "cloudflare"
+        ]
+      }
+    },
+    {
+      "id": "wikipedia-dns",
+      "name": "Wikipedia DNS",
+      "type": "dns",
+      "enabled": true,
+      "target": "wikipedia.org",
+      "interval": "30m",
+      "dns": {
+        "record_type": "A",
+        "resolvers": [
+          "system",
+          "google",
+          "cloudflare"
+        ]
+      }
+    },
+    {
+      "id": "mozilla-dns",
+      "name": "Mozilla DNS",
+      "type": "dns",
+      "enabled": true,
+      "target": "mozilla.org",
+      "interval": "30m",
+      "dns": {
+        "record_type": "A",
+        "resolvers": [
+          "system",
+          "google",
+          "cloudflare"
+        ]
       }
     }
   ],
   "settings": {
     "tolerance": "2m",
     "failure_threshold": 3,
-    "recovery_threshold": 2,
-    "notifications": {
-      "discord": {
-        "enabled": true,
-        "notify_on": {
-          "incident_created": true,
-          "incident_updated": true,
-          "incident_resolved": true,
-          "maintenance": false
-        }
-      }
-    }
+    "recovery_threshold": 2
   }
 }
