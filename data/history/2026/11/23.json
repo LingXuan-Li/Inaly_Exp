@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T13:32:32.563404419Z",
+  "generated_at": "2026-11-23T13:40:50.817831573Z",
   "checks": [
     {
       "monitor_id": "example-http",
@@ -255,6 +255,7 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 1506884,
             "resolver": "system",
             "response": [
               "172.253.62.113",
@@ -267,10 +268,10 @@
               "2607:f8b0:4004:c09::8a",
               "2607:f8b0:4004:c09::8b",
               "2607:f8b0:4004:c09::66"
-            ],
-            "duration": 1506884
+            ]
           },
           {
+            "duration": 31671474,
             "resolver": "google",
             "response": [
               "142.251.163.100",
@@ -283,10 +284,10 @@
               "2607:f8b0:4004:c1d::8a",
               "2607:f8b0:4004:c1d::71",
               "2607:f8b0:4004:c1d::8b"
-            ],
-            "duration": 31671474
+            ]
           },
           {
+            "duration": 3818922,
             "resolver": "cloudflare",
             "response": [
               "192.178.218.139",
@@ -299,8 +300,7 @@
               "2607:f8b0:4004:c1f::71",
               "2607:f8b0:4004:c1f::66",
               "2607:f8b0:4004:c1f::65"
-            ],
-            "duration": 3818922
+            ]
           }
         ],
         "warning": false
@@ -318,25 +318,25 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 353403,
             "resolver": "system",
             "response": [
               "140.82.112.4"
-            ],
-            "duration": 353403
+            ]
           },
           {
+            "duration": 14781018,
             "resolver": "google",
             "response": [
               "140.82.114.4"
-            ],
-            "duration": 14781018
+            ]
           },
           {
+            "duration": 2866092,
             "resolver": "cloudflare",
             "response": [
               "140.82.112.4"
-            ],
-            "duration": 2866092
+            ]
           }
         ],
         "warning": false
@@ -354,34 +354,34 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 1179578,
             "resolver": "system",
             "response": [
               "104.16.132.229",
               "104.16.133.229",
               "2606:4700::6810:84e5",
               "2606:4700::6810:85e5"
-            ],
-            "duration": 1179578
+            ]
           },
           {
+            "duration": 7126976,
             "resolver": "google",
             "response": [
               "104.16.132.229",
               "104.16.133.229",
               "2606:4700::6810:85e5",
               "2606:4700::6810:84e5"
-            ],
-            "duration": 7126976
+            ]
           },
           {
+            "duration": 3549558,
             "resolver": "cloudflare",
             "response": [
               "104.16.132.229",
               "104.16.133.229",
               "2606:4700::6810:85e5",
               "2606:4700::6810:84e5"
-            ],
-            "duration": 3549558
+            ]
           }
         ],
         "warning": false
@@ -399,28 +399,28 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 34754590,
             "resolver": "system",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 34754590
+            ]
           },
           {
+            "duration": 6382524,
             "resolver": "google",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 6382524
+            ]
           },
           {
+            "duration": 4711193,
             "resolver": "cloudflare",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 4711193
+            ]
           }
         ],
         "warning": false
@@ -438,31 +438,101 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 3506206,
             "resolver": "system",
             "response": [
               "35.190.14.201",
               "2600:1901:0:c197::"
-            ],
-            "duration": 3506206
+            ]
           },
           {
+            "duration": 6756483,
             "resolver": "google",
             "response": [
               "35.190.14.201",
               "2600:1901:0:c197::"
-            ],
-            "duration": 6756483
+            ]
           },
           {
+            "duration": 4635085,
             "resolver": "cloudflare",
             "response": [
               "35.190.14.201",
               "2600:1901:0:c197::"
-            ],
-            "duration": 4635085
+            ]
           }
         ],
         "warning": false
+      }
+    },
+    {
+      "monitor_id": "google-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-23T13:40:50.818297705Z",
+      "finished_at": "2026-11-23T13:40:50.912479806Z",
+      "duration": 94182101,
+      "details": {
+        "response_bytes": 87101,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "github-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-23T13:40:50.912488759Z",
+      "finished_at": "2026-11-23T13:40:50.955958109Z",
+      "duration": 43469350,
+      "details": {
+        "response_bytes": 537261,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "cloudflare-http",
+      "type": "http",
+      "status": "failure",
+      "started_at": "2026-11-23T13:40:50.955965691Z",
+      "finished_at": "2026-11-23T13:40:51.299153143Z",
+      "duration": 343187452,
+      "error": "response body exceeds 1 MiB"
+    },
+    {
+      "monitor_id": "wikipedia-http",
+      "type": "http",
+      "status": "failure",
+      "started_at": "2026-11-23T13:40:51.299175236Z",
+      "finished_at": "2026-11-23T13:40:51.471672701Z",
+      "duration": 172497465,
+      "error": "unexpected HTTP status 403",
+      "details": {
+        "response_bytes": 126,
+        "status_code": 403
+      }
+    },
+    {
+      "monitor_id": "mozilla-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-23T13:40:51.471679281Z",
+      "finished_at": "2026-11-23T13:40:51.526862556Z",
+      "duration": 55183275,
+      "details": {
+        "response_bytes": 47885,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "openai-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-23T13:40:51.526870798Z",
+      "finished_at": "2026-11-23T13:40:51.616892971Z",
+      "duration": 90022173,
+      "details": {
+        "response_bytes": 454368,
+        "status_code": 200
       }
     }
   ]
