@@ -5,7 +5,9 @@
     "monitor_name": "Cloudflare",
     "state": "open",
     "opened_at": "2026-11-23T19:06:54.513457034Z",
-    "last_error": "response body exceeds 1 MiB"
+    "last_error": "response body exceeds 1 MiB",
+    "issue_number": 1,
+    "issue_url": "https://github.com/LingXuan-Li/Inaly_Exp/issues/1"
   },
   {
     "id": "8660429e9c624c5a82fa4b84bede8649",
@@ -13,6 +15,8 @@
     "monitor_name": "Wikipedia",
     "state": "open",
     "opened_at": "2026-11-23T19:06:54.513457034Z",
-    "last_error": "unexpected HTTP status 403"
+    "last_error": "unexpected HTTP status 403",
+    "issue_number": 2,
+    "issue_url": "https://github.com/LingXuan-Li/Inaly_Exp/issues/2"
   }
 ]
