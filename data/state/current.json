@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "monitor_id": "example-http",
+    "type": "http",
+    "status": "success",
+    "started_at": "2026-11-23T07:32:59.357196312Z",
+    "finished_at": "2026-11-23T07:32:59.393977492Z",
+    "duration": 36781180,
+    "details": {
+      "response_bytes": 577,
+      "status_code": 200
+    }
+  },
+  {
+    "monitor_id": "example-dns",
+    "type": "dns",
+    "status": "success",
+    "started_at": "2026-11-23T07:32:59.393985126Z",
+    "finished_at": "2026-11-23T07:32:59.42387712Z",
+    "duration": 29891994,
+    "details": {
+      "query": "example.com",
+      "record_type": "A",
+      "resolver_results": [
+        {
+          "resolver": "system",
+          "response": [
+            "104.20.23.154",
+            "172.66.147.243",
+            "2606:4700:10::6814:179a",
+            "2606:4700:10::ac42:93f3"
+          ],
+          "duration": 756692
+        },
+        {
+          "resolver": "google",
+          "response": [
+            "104.20.23.154",
+            "172.66.147.243",
+            "2606:4700:10::6814:179a",
+            "2606:4700:10::ac42:93f3"
+          ],
+          "duration": 24523941
+        },
+        {
+          "resolver": "cloudflare",
+          "response": [
+            "172.66.147.243",
+            "104.20.23.154",
+            "2606:4700:10::ac42:93f3",
+            "2606:4700:10::6814:179a"
+          ],
+          "duration": 4606281
+        }
+      ],
+      "warning": false
+    }
+  }
+]
