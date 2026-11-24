@@ -122,7 +122,8 @@
       "summary": ""
     },
     "delivery_status": "pending",
-    "attempt_count": 0
+    "attempt_count": 0,
+    "issue_done": true
   },
   {
     "event_id": "b12a132d1c644819b99bd47e6878871b",
@@ -139,6 +140,7 @@
       "summary": ""
     },
     "delivery_status": "pending",
-    "attempt_count": 0
+    "attempt_count": 0,
+    "issue_done": true
   }
 ]
