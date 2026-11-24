@@ -50,7 +50,8 @@
       "summary": "response body exceeds 1 MiB"
     },
     "delivery_status": "pending",
-    "attempt_count": 0
+    "attempt_count": 0,
+    "issue_done": true
   },
   {
     "event_id": "9885fa6989684cae86a930d1b49af1bf",
@@ -67,6 +68,7 @@
       "summary": "unexpected HTTP status 403"
     },
     "delivery_status": "pending",
-    "attempt_count": 0
+    "attempt_count": 0,
+    "issue_done": true
   }
 ]
