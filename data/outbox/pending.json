@@ -34,5 +34,39 @@
     "delivery_status": "pending",
     "attempt_count": 0,
     "issue_done": true
+  },
+  {
+    "event_id": "fcb829c5e5e04cbe9cecc03e8008fea5",
+    "event_type": "incident_updated",
+    "aggregate_id": "885d06cbdc974a17bca75cb55d8434cd",
+    "created_at": "2026-11-24T04:16:56.771503163Z",
+    "payload": {
+      "incident_id": "885d06cbdc974a17bca75cb55d8434cd",
+      "issue_url": "https://github.com/LingXuan-Li/Inaly_Exp/issues/1",
+      "monitor_id": "cloudflare-http",
+      "monitor_name": "Cloudflare",
+      "occurred_at": "2026-11-23T19:06:54.513457034Z",
+      "resolved_at": null,
+      "summary": "response body exceeds 1 MiB"
+    },
+    "delivery_status": "pending",
+    "attempt_count": 0
+  },
+  {
+    "event_id": "9885fa6989684cae86a930d1b49af1bf",
+    "event_type": "incident_updated",
+    "aggregate_id": "8660429e9c624c5a82fa4b84bede8649",
+    "created_at": "2026-11-24T04:16:56.771503163Z",
+    "payload": {
+      "incident_id": "8660429e9c624c5a82fa4b84bede8649",
+      "issue_url": "https://github.com/LingXuan-Li/Inaly_Exp/issues/2",
+      "monitor_id": "wikipedia-http",
+      "monitor_name": "Wikipedia",
+      "occurred_at": "2026-11-23T19:06:54.513457034Z",
+      "resolved_at": null,
+      "summary": "unexpected HTTP status 403"
+    },
+    "delivery_status": "pending",
+    "attempt_count": 0
   }
 ]
