@@ -1,16 +1,20 @@
+
 name: Inaly Pulse
 
 on:
   push:
     branches:
       - main
+
   schedule:
     - cron: "7,17,27,37,47,57 * * * *"
+
   workflow_dispatch:
     inputs:
       force:
-        description: Run enabled monitors even if their interval has not elapsed
+        description: "Run enabled monitors even if their interval has not elapsed"
         type: boolean
+        required: false
         default: false
 
 permissions:
@@ -19,10 +23,11 @@ permissions:
 jobs:
   monitor:
     uses: LingXuan-Li/inaly_pulse/.github/workflows/monitor.yml@main
+
     with:
       app_id: ${{ vars.INALY_APP_ID }}
-      # schedule 実行では inputs が空になり、boolean入力に空値が渡るのを避ける
-      force: ${{ github.event_name == 'workflow_dispatch' && inputs.force == true }}
+      force: ${{ github.event_name == 'workflow_dispatch' && inputs.force || false }}
+
     secrets:
       INALY_APP_PRIVATE_KEY: ${{ secrets.INALY_APP_PRIVATE_KEY }}
       INALY_MONITOR_SECRETS: ${{ secrets.INALY_MONITOR_SECRETS }}
