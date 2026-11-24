@@ -7,9 +7,9 @@
   },
   "cloudflare-http": {
     "state": "outage",
-    "failure_count": 5,
-    "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.536010889Z"
+    "failure_count": 0,
+    "recovery_count": 1,
+    "last_run": "2026-11-24T07:54:38.323959571Z"
   },
   "example-dns": {
     "state": "operational",
@@ -33,7 +33,7 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.228120059Z"
+    "last_run": "2026-11-24T07:54:37.826706529Z"
   },
   "google-dns": {
     "state": "operational",
@@ -45,7 +45,7 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.062252054Z"
+    "last_run": "2026-11-24T07:54:37.500399768Z"
   },
   "mozilla-dns": {
     "state": "operational",
@@ -57,13 +57,13 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.685654089Z"
+    "last_run": "2026-11-24T07:54:38.512481315Z"
   },
   "openai-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.7873236Z"
+    "last_run": "2026-11-24T07:54:38.643260119Z"
   },
   "wikipedia-dns": {
     "state": "operational",
@@ -73,8 +73,8 @@
   },
   "wikipedia-http": {
     "state": "outage",
-    "failure_count": 5,
-    "recovery_count": 0,
-    "last_run": "2026-11-24T07:42:49.60954897Z"
+    "failure_count": 0,
+    "recovery_count": 1,
+    "last_run": "2026-11-24T07:54:38.431781629Z"
   }
 }
