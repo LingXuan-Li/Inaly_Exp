@@ -9,7 +9,7 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:56.209944003Z"
+    "last_run": "2026-11-25T12:14:09.076349064Z"
   },
   "example-dns": {
     "state": "operational",
@@ -33,7 +33,7 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:55.879086758Z"
+    "last_run": "2026-11-25T12:14:08.651672166Z"
   },
   "google-dns": {
     "state": "operational",
@@ -45,7 +45,7 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:55.682932726Z"
+    "last_run": "2026-11-25T12:14:08.312278238Z"
   },
   "mozilla-dns": {
     "state": "operational",
@@ -57,13 +57,13 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:56.383314568Z"
+    "last_run": "2026-11-25T12:14:09.203286599Z"
   },
   "openai-http": {
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:56.536055531Z"
+    "last_run": "2026-11-25T12:14:09.327215897Z"
   },
   "wikipedia-dns": {
     "state": "operational",
@@ -75,6 +75,6 @@
     "state": "operational",
     "failure_count": 0,
     "recovery_count": 0,
-    "last_run": "2026-11-25T11:52:56.310845773Z"
+    "last_run": "2026-11-25T12:14:09.159239515Z"
   }
 }
