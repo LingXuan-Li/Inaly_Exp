@@ -21,6 +21,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: inaly-pulse
+  cancel-in-progress: false
+
 jobs:
   monitor:
     uses: LingXuan-Li/inaly_pulse/.github/workflows/monitor.yml@main
