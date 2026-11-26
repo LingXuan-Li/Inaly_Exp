@@ -3,11 +3,11 @@
     "monitor_id": "google-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:55.699371074Z",
-    "finished_at": "2026-11-25T21:40:55.81614949Z",
-    "duration": 116778416,
+    "started_at": "2026-11-26T03:29:32.574928992Z",
+    "finished_at": "2026-11-26T03:29:32.685016286Z",
+    "duration": 110087294,
     "details": {
-      "response_bytes": 87203,
+      "response_bytes": 87286,
       "status_code": 200
     }
   },
@@ -15,11 +15,11 @@
     "monitor_id": "github-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:55.81615503Z",
-    "finished_at": "2026-11-25T21:40:55.913468174Z",
-    "duration": 97313144,
+    "started_at": "2026-11-26T03:29:32.685030473Z",
+    "finished_at": "2026-11-26T03:29:32.699100482Z",
+    "duration": 14070009,
     "details": {
-      "response_bytes": 537050,
+      "response_bytes": 537165,
       "status_code": 200
     }
   },
@@ -27,9 +27,9 @@
     "monitor_id": "cloudflare-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:55.913473574Z",
-    "finished_at": "2026-11-25T21:40:56.600383103Z",
-    "duration": 686909529,
+    "started_at": "2026-11-26T03:29:32.699106864Z",
+    "finished_at": "2026-11-26T03:29:33.060010977Z",
+    "duration": 360904113,
     "details": {
       "body_truncated": true,
       "response_bytes": 1048576,
@@ -40,9 +40,9 @@
     "monitor_id": "wikipedia-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.600395195Z",
-    "finished_at": "2026-11-25T21:40:56.658901584Z",
-    "duration": 58506389,
+    "started_at": "2026-11-26T03:29:33.060021848Z",
+    "finished_at": "2026-11-26T03:29:33.194816627Z",
+    "duration": 134794779,
     "details": {
       "response_bytes": 122259,
       "status_code": 200
@@ -52,9 +52,9 @@
     "monitor_id": "mozilla-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.658906303Z",
-    "finished_at": "2026-11-25T21:40:56.709420679Z",
-    "duration": 50514376,
+    "started_at": "2026-11-26T03:29:33.194824092Z",
+    "finished_at": "2026-11-26T03:29:33.239647064Z",
+    "duration": 44822972,
     "details": {
       "response_bytes": 47881,
       "status_code": 200
@@ -64,11 +64,11 @@
     "monitor_id": "openai-http",
     "type": "http",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.709425999Z",
-    "finished_at": "2026-11-25T21:40:56.78428516Z",
-    "duration": 74859161,
+    "started_at": "2026-11-26T03:29:33.239654428Z",
+    "finished_at": "2026-11-26T03:29:33.347608503Z",
+    "duration": 107954075,
     "details": {
-      "response_bytes": 457359,
+      "response_bytes": 457401,
       "status_code": 200
     }
   },
@@ -76,9 +76,9 @@
     "monitor_id": "google-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.784304356Z",
-    "finished_at": "2026-11-25T21:40:56.809528853Z",
-    "duration": 25224497,
+    "started_at": "2026-11-26T03:29:33.347616357Z",
+    "finished_at": "2026-11-26T03:29:33.362982845Z",
+    "duration": 15366488,
     "details": {
       "query": "google.com",
       "record_type": "A",
@@ -86,29 +86,26 @@
         {
           "resolver": "system",
           "response": [
-            "142.251.218.78",
-            "2607:f8b0:4005:806::200e"
+            "142.251.45.142",
+            "2607:f8b0:400a:803::200e"
           ],
-          "duration": 3729172
+          "duration": 2764372
         },
         {
           "resolver": "google",
           "response": [
-            "142.251.218.174",
-            "2607:f8b0:4005:80a::200e"
+            "142.250.69.174",
+            "2607:f8b0:400a:803::200e"
           ],
-          "duration": 16635653
+          "duration": 5470781
         },
         {
           "resolver": "cloudflare",
           "response": [
-            "142.251.218.142",
-            "2607:f8b0:4023:80d::66",
-            "2607:f8b0:4023:80d::8b",
-            "2607:f8b0:4023:80d::71",
-            "2607:f8b0:4023:80d::65"
+            "142.250.73.142",
+            "2607:f8b0:400a:801::200e"
           ],
-          "duration": 4854212
+          "duration": 7125904
         }
       ],
       "warning": false
@@ -118,9 +115,9 @@
     "monitor_id": "github-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.809531207Z",
-    "finished_at": "2026-11-25T21:40:56.822496518Z",
-    "duration": 12965311,
+    "started_at": "2026-11-26T03:29:33.362985349Z",
+    "finished_at": "2026-11-26T03:29:33.383795457Z",
+    "duration": 20810108,
     "details": {
       "query": "github.com",
       "record_type": "A",
@@ -128,23 +125,23 @@
         {
           "resolver": "system",
           "response": [
-            "20.169.109.160"
+            "48.202.10.80"
           ],
-          "duration": 1414031
+          "duration": 2708477
         },
         {
           "resolver": "google",
           "response": [
-            "172.182.252.133"
+            "20.64.190.225"
           ],
-          "duration": 9194406
+          "duration": 12106101
         },
         {
           "resolver": "cloudflare",
           "response": [
-            "20.172.24.160"
+            "172.194.218.192"
           ],
-          "duration": 2353828
+          "duration": 5990680
         }
       ],
       "warning": false
@@ -154,9 +151,9 @@
     "monitor_id": "cloudflare-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.822499082Z",
-    "finished_at": "2026-11-25T21:40:56.840897391Z",
-    "duration": 18398309,
+    "started_at": "2026-11-26T03:29:33.383801167Z",
+    "finished_at": "2026-11-26T03:29:34.420220488Z",
+    "duration": 1036419321,
     "details": {
       "query": "cloudflare.com",
       "record_type": "A",
@@ -164,22 +161,22 @@
         {
           "resolver": "system",
           "response": [
-            "104.16.133.229",
             "104.16.132.229",
+            "104.16.133.229",
             "2606:4700::6810:85e5",
             "2606:4700::6810:84e5"
           ],
-          "duration": 2003896
+          "duration": 8795581
         },
         {
           "resolver": "google",
           "response": [
-            "104.16.133.229",
             "104.16.132.229",
+            "104.16.133.229",
             "2606:4700::6810:85e5",
             "2606:4700::6810:84e5"
           ],
-          "duration": 12455981
+          "duration": 1021048094
         },
         {
           "resolver": "cloudflare",
@@ -189,7 +186,7 @@
             "2606:4700::6810:85e5",
             "2606:4700::6810:84e5"
           ],
-          "duration": 3934325
+          "duration": 6551640
         }
       ],
       "warning": false
@@ -199,9 +196,9 @@
     "monitor_id": "wikipedia-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.840902961Z",
-    "finished_at": "2026-11-25T21:40:56.910852799Z",
-    "duration": 69949838,
+    "started_at": "2026-11-26T03:29:34.420231468Z",
+    "finished_at": "2026-11-26T03:29:34.546645952Z",
+    "duration": 126414484,
     "details": {
       "query": "wikipedia.org",
       "record_type": "A",
@@ -212,7 +209,7 @@
             "198.35.26.224",
             "2620:0:863:ed1a::1"
           ],
-          "duration": 43759374
+          "duration": 50310563
         },
         {
           "resolver": "google",
@@ -220,7 +217,7 @@
             "198.35.26.224",
             "2620:0:863:ed1a::1"
           ],
-          "duration": 21839972
+          "duration": 68986577
         },
         {
           "resolver": "cloudflare",
@@ -228,7 +225,7 @@
             "198.35.26.224",
             "2620:0:863:ed1a::1"
           ],
-          "duration": 4347677
+          "duration": 7112414
         }
       ],
       "warning": false
@@ -238,9 +235,9 @@
     "monitor_id": "mozilla-dns",
     "type": "dns",
     "status": "success",
-    "started_at": "2026-11-25T21:40:56.910855004Z",
-    "finished_at": "2026-11-25T21:40:56.918879944Z",
-    "duration": 8024940,
+    "started_at": "2026-11-26T03:29:34.54665032Z",
+    "finished_at": "2026-11-26T03:29:34.608517274Z",
+    "duration": 61866954,
     "details": {
       "query": "mozilla.org",
       "record_type": "A",
@@ -251,7 +248,7 @@
             "35.190.14.201",
             "2600:1901:0:c197::"
           ],
-          "duration": 3893972
+          "duration": 42059169
         },
         {
           "resolver": "google",
@@ -259,7 +256,7 @@
             "35.190.14.201",
             "2600:1901:0:c197::"
           ],
-          "duration": 1345817
+          "duration": 12115982
         },
         {
           "resolver": "cloudflare",
@@ -267,7 +264,7 @@
             "35.190.14.201",
             "2600:1901:0:c197::"
           ],
-          "duration": 2781355
+          "duration": 7686322
         }
       ],
       "warning": false
