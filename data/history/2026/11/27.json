@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T08:16:37.838342266Z",
+  "generated_at": "2026-11-27T15:04:24.897832918Z",
   "checks": [
     {
       "monitor_id": "google-http",
@@ -677,28 +677,28 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 4582123,
             "resolver": "system",
             "response": [
               "142.250.217.110",
               "2607:f8b0:4009:802::200e"
-            ],
-            "duration": 4582123
+            ]
           },
           {
+            "duration": 12806528,
             "resolver": "google",
             "response": [
               "142.251.211.14",
               "2607:f8b0:4009:810::200e"
-            ],
-            "duration": 12806528
+            ]
           },
           {
+            "duration": 3378660,
             "resolver": "cloudflare",
             "response": [
               "142.251.210.238",
               "2607:f8b0:4009:813::200e"
-            ],
-            "duration": 3378660
+            ]
           }
         ],
         "warning": false
@@ -716,25 +716,25 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 3101957,
             "resolver": "system",
             "response": [
               "140.82.114.4"
-            ],
-            "duration": 3101957
+            ]
           },
           {
+            "duration": 28479975,
             "resolver": "google",
             "response": [
               "140.82.114.3"
-            ],
-            "duration": 28479975
+            ]
           },
           {
+            "duration": 5918782,
             "resolver": "cloudflare",
             "response": [
               "140.82.114.3"
-            ],
-            "duration": 5918782
+            ]
           }
         ],
         "warning": false
@@ -752,34 +752,34 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 9821258,
             "resolver": "system",
             "response": [
               "104.16.133.229",
               "104.16.132.229",
               "2606:4700::6810:84e5",
               "2606:4700::6810:85e5"
-            ],
-            "duration": 9821258
+            ]
           },
           {
+            "duration": 26376884,
             "resolver": "google",
             "response": [
               "104.16.133.229",
               "104.16.132.229",
               "2606:4700::6810:85e5",
               "2606:4700::6810:84e5"
-            ],
-            "duration": 26376884
+            ]
           },
           {
+            "duration": 9707094,
             "resolver": "cloudflare",
             "response": [
               "104.16.132.229",
               "104.16.133.229",
               "2606:4700::6810:85e5",
               "2606:4700::6810:84e5"
-            ],
-            "duration": 9707094
+            ]
           }
         ],
         "warning": false
@@ -797,28 +797,28 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 68083315,
             "resolver": "system",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 68083315
+            ]
           },
           {
+            "duration": 44482636,
             "resolver": "google",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 44482636
+            ]
           },
           {
+            "duration": 10799554,
             "resolver": "cloudflare",
             "response": [
               "208.80.154.224",
               "2620:0:861:ed1a::1"
-            ],
-            "duration": 10799554
+            ]
           }
         ],
         "warning": false
@@ -836,12 +836,307 @@
         "record_type": "A",
         "resolver_results": [
           {
+            "duration": 11072985,
+            "resolver": "system",
+            "response": [
+              "35.190.14.201",
+              "2600:1901:0:c197::"
+            ]
+          },
+          {
+            "duration": 11787117,
+            "resolver": "google",
+            "response": [
+              "35.190.14.201",
+              "2600:1901:0:c197::"
+            ]
+          },
+          {
+            "duration": 8904398,
+            "resolver": "cloudflare",
+            "response": [
+              "35.190.14.201",
+              "2600:1901:0:c197::"
+            ]
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "google-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:24.898741883Z",
+      "finished_at": "2026-11-27T15:04:25.019897805Z",
+      "duration": 121155922,
+      "details": {
+        "response_bytes": 87258,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "github-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:25.019904568Z",
+      "finished_at": "2026-11-27T15:04:25.264232537Z",
+      "duration": 244327969,
+      "details": {
+        "response_bytes": 536814,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "cloudflare-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:25.264240042Z",
+      "finished_at": "2026-11-27T15:04:25.748968131Z",
+      "duration": 484728089,
+      "details": {
+        "body_truncated": true,
+        "response_bytes": 1048576,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "wikipedia-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:25.749007795Z",
+      "finished_at": "2026-11-27T15:04:25.927764278Z",
+      "duration": 178756483,
+      "details": {
+        "response_bytes": 122259,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "mozilla-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:25.927769858Z",
+      "finished_at": "2026-11-27T15:04:26.040458976Z",
+      "duration": 112689118,
+      "details": {
+        "response_bytes": 47881,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "openai-http",
+      "type": "http",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.040463284Z",
+      "finished_at": "2026-11-27T15:04:26.248679316Z",
+      "duration": 208216032,
+      "details": {
+        "response_bytes": 457406,
+        "status_code": 200
+      }
+    },
+    {
+      "monitor_id": "google-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.248684486Z",
+      "finished_at": "2026-11-27T15:04:26.33032981Z",
+      "duration": 81645324,
+      "details": {
+        "query": "google.com",
+        "record_type": "A",
+        "resolver_results": [
+          {
+            "resolver": "system",
+            "response": [
+              "142.251.108.138",
+              "142.251.108.139",
+              "142.251.108.100",
+              "142.251.108.101",
+              "142.251.108.102",
+              "142.251.108.113",
+              "2607:f8b0:4023:80b::71",
+              "2607:f8b0:4023:80b::8b",
+              "2607:f8b0:4023:80b::8a",
+              "2607:f8b0:4023:80b::66"
+            ],
+            "duration": 31326744
+          },
+          {
+            "resolver": "google",
+            "response": [
+              "142.251.121.102",
+              "142.251.121.138",
+              "142.251.121.139",
+              "142.251.121.100",
+              "142.251.121.113",
+              "142.251.121.101",
+              "2607:f8b0:4023:807::65",
+              "2607:f8b0:4023:807::8b",
+              "2607:f8b0:4023:807::71",
+              "2607:f8b0:4023:807::8a"
+            ],
+            "duration": 31909956
+          },
+          {
+            "resolver": "cloudflare",
+            "response": [
+              "192.179.22.101",
+              "192.179.22.113",
+              "192.179.22.138",
+              "192.179.22.102",
+              "192.179.22.139",
+              "192.179.22.100",
+              "2607:f8b0:4023:100d::64",
+              "2607:f8b0:4023:100d::71",
+              "2607:f8b0:4023:100d::8b",
+              "2607:f8b0:4023:100d::66"
+            ],
+            "duration": 18402815
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "github-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.330332996Z",
+      "finished_at": "2026-11-27T15:04:26.397947238Z",
+      "duration": 67614242,
+      "details": {
+        "query": "github.com",
+        "record_type": "A",
+        "resolver_results": [
+          {
+            "resolver": "system",
+            "response": [
+              "140.82.114.3"
+            ],
+            "duration": 1932476
+          },
+          {
+            "resolver": "google",
+            "response": [
+              "140.82.114.3"
+            ],
+            "duration": 47065914
+          },
+          {
+            "resolver": "cloudflare",
+            "response": [
+              "140.82.114.4"
+            ],
+            "duration": 18611424
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "cloudflare-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.397949703Z",
+      "finished_at": "2026-11-27T15:04:26.48167088Z",
+      "duration": 83721177,
+      "details": {
+        "query": "cloudflare.com",
+        "record_type": "A",
+        "resolver_results": [
+          {
+            "resolver": "system",
+            "response": [
+              "104.16.133.229",
+              "104.16.132.229",
+              "2606:4700::6810:84e5",
+              "2606:4700::6810:85e5"
+            ],
+            "duration": 21170840
+          },
+          {
+            "resolver": "google",
+            "response": [
+              "104.16.133.229",
+              "104.16.132.229",
+              "2606:4700::6810:85e5",
+              "2606:4700::6810:84e5"
+            ],
+            "duration": 42105557
+          },
+          {
+            "resolver": "cloudflare",
+            "response": [
+              "104.16.132.229",
+              "104.16.133.229",
+              "2606:4700::6810:85e5",
+              "2606:4700::6810:84e5"
+            ],
+            "duration": 20440921
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "wikipedia-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.48167628Z",
+      "finished_at": "2026-11-27T15:04:26.631373923Z",
+      "duration": 149697643,
+      "details": {
+        "query": "wikipedia.org",
+        "record_type": "A",
+        "resolver_results": [
+          {
+            "resolver": "system",
+            "response": [
+              "198.35.26.224",
+              "2620:0:863:ed1a::1"
+            ],
+            "duration": 69301801
+          },
+          {
+            "resolver": "google",
+            "response": [
+              "198.35.26.224",
+              "2620:0:863:ed1a::1"
+            ],
+            "duration": 57940779
+          },
+          {
+            "resolver": "cloudflare",
+            "response": [
+              "208.80.153.224",
+              "2620:0:860:ed1a::1"
+            ],
+            "duration": 22450173
+          }
+        ],
+        "warning": false
+      }
+    },
+    {
+      "monitor_id": "mozilla-dns",
+      "type": "dns",
+      "status": "success",
+      "started_at": "2026-11-27T15:04:26.631377159Z",
+      "finished_at": "2026-11-27T15:04:26.70153668Z",
+      "duration": 70159521,
+      "details": {
+        "query": "mozilla.org",
+        "record_type": "A",
+        "resolver_results": [
+          {
             "resolver": "system",
             "response": [
               "35.190.14.201",
               "2600:1901:0:c197::"
             ],
-            "duration": 11072985
+            "duration": 20149602
           },
           {
             "resolver": "google",
@@ -849,7 +1144,7 @@
               "35.190.14.201",
               "2600:1901:0:c197::"
             ],
-            "duration": 11787117
+            "duration": 31078829
           },
           {
             "resolver": "cloudflare",
@@ -857,7 +1152,7 @@
               "35.190.14.201",
               "2600:1901:0:c197::"
             ],
-            "duration": 8904398
+            "duration": 18927893
           }
         ],
         "warning": false
